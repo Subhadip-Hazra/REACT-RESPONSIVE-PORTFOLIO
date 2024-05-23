@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Croissant+One&family=Fuggles&family=IBM+Plex+Sans:wght@100;400&family=Josefin+Sans:wght@100&family=Lilita+One&family=Martian+Mono:wght@300&family=PT+Serif:ital,wght@1,700&family=Rubik+Glitch+Pop&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Croissant+One&family=Fuggles&family=IBM+Plex+Sans:wght@100;400&family=Josefin+Sans:ital,wght@0,100;1,300&family=Lilita+One&family=Martian+Mono:wght@300&family=PT+Serif:ital,wght@1,700&family=Rubik+Glitch+Pop&family=Young+Serif&display=swap');
+.custom-heading{
+    font-family: Black Ops One ;
+    font-size: 55px;
+}
+.custom-subheading{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+}
+.custom-image{
+    box-shadow: rgba(117, 179, 246, 0.589) 0px 20px 30px -10px;
+    cursor: pointer;
+}
+.custom-paragraph{
+    font-family: Josefin Sans;
+}
+.submit{
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: #fff;
+    background-color: #512ef0c1;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.submit span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.submit span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.submit:hover span {
+    padding-right: 25px;
+}
+
+.submit:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.submit:hover{
+    background-color: #e4d2fd;
+    color: black;
+}
